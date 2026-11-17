@@ -1,0 +1,5 @@
+verdict,precision,recall,f1,support
+load_bearing,1.0000,1.0000,1.0000,106
+redundant,1.0000,1.0000,1.0000,19
+decorative,1.0000,1.0000,1.0000,26
+contradicting,1.0000,1.0000,1.0000,10
