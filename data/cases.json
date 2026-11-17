@@ -1,0 +1,4234 @@
+[
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Metformin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "twice daily",
+            "value": "twice daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-001",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      }
+    ],
+    "question": "What is the recommended dose of Metformin and when is it taken?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Aurora savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "paid annually",
+            "value": "paid annually"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-002",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      }
+    ],
+    "question": "What is the interest rate on the Aurora savings account?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Mercury",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per orbit",
+            "value": "per orbit"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-003",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      }
+    ],
+    "question": "How long is the orbital period of Mercury?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the search endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "with burst allowance",
+            "value": "with burst allowance"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-004",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      }
+    ],
+    "question": "What is the rate limit for the search endpoint?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Lisinopril",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after meals",
+            "value": "after meals"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-005",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      }
+    ],
+    "question": "What is the recommended dose of Atorvastatin and when is it taken?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Harbor savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "compounded monthly",
+            "value": "compounded monthly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-006",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      }
+    ],
+    "question": "What is the interest rate on the Beacon savings account?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Earth",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "in Earth days",
+            "value": "in Earth days"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-007",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      }
+    ],
+    "question": "How long is the orbital period of Venus?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the upload endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after authentication",
+            "value": "after authentication"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-008",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      }
+    ],
+    "question": "What is the rate limit for the billing endpoint?",
+    "scenario": "clean"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Metformin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "twice daily",
+            "value": "twice daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-009",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      },
+      {
+        "id": "p3",
+        "text": "Atorvastatin is usually taken with food and may cause mild nausea."
+      }
+    ],
+    "question": "What is the recommended dose of Metformin and when is it taken?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Aurora savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "paid annually",
+            "value": "paid annually"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-010",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      },
+      {
+        "id": "p3",
+        "text": "The Beacon account includes free online banking and no monthly fee."
+      }
+    ],
+    "question": "What is the interest rate on the Aurora savings account?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Mercury",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per orbit",
+            "value": "per orbit"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-011",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      },
+      {
+        "id": "p3",
+        "text": "Venus has two small moons and a thin atmosphere."
+      }
+    ],
+    "question": "How long is the orbital period of Mercury?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the search endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "with burst allowance",
+            "value": "with burst allowance"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-012",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      },
+      {
+        "id": "p3",
+        "text": "The billing endpoint returns JSON and supports pagination."
+      }
+    ],
+    "question": "What is the rate limit for the search endpoint?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Lisinopril",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after meals",
+            "value": "after meals"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-013",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      },
+      {
+        "id": "p3",
+        "text": "Lisinopril is usually taken with food and may cause mild nausea."
+      }
+    ],
+    "question": "What is the recommended dose of Atorvastatin and when is it taken?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Harbor savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "compounded monthly",
+            "value": "compounded monthly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-014",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      },
+      {
+        "id": "p3",
+        "text": "The Harbor account includes free online banking and no monthly fee."
+      }
+    ],
+    "question": "What is the interest rate on the Beacon savings account?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Earth",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "in Earth days",
+            "value": "in Earth days"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-015",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      },
+      {
+        "id": "p3",
+        "text": "Earth has two small moons and a thin atmosphere."
+      }
+    ],
+    "question": "How long is the orbital period of Venus?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the upload endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after authentication",
+            "value": "after authentication"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-016",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      },
+      {
+        "id": "p3",
+        "text": "The upload endpoint returns JSON and supports pagination."
+      }
+    ],
+    "question": "What is the rate limit for the billing endpoint?",
+    "scenario": "padded"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Metformin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "twice daily",
+            "value": "twice daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-017",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      },
+      {
+        "id": "p3",
+        "text": "Metformin 100 mg twice daily is the standard starting dose for adults."
+      }
+    ],
+    "question": "What is the recommended dose of Metformin and when is it taken?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Aurora savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "paid annually",
+            "value": "paid annually"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-018",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      },
+      {
+        "id": "p3",
+        "text": "The Aurora savings account pays 4% interest, paid annually."
+      }
+    ],
+    "question": "What is the interest rate on the Aurora savings account?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Mercury",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per orbit",
+            "value": "per orbit"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-019",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      },
+      {
+        "id": "p3",
+        "text": "Mercury takes 365 days per orbit to complete one orbit."
+      }
+    ],
+    "question": "How long is the orbital period of Mercury?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the search endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "with burst allowance",
+            "value": "with burst allowance"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-020",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      },
+      {
+        "id": "p3",
+        "text": "The search endpoint allows 300 requests per minute, with burst allowance."
+      }
+    ],
+    "question": "What is the rate limit for the search endpoint?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Lisinopril",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after meals",
+            "value": "after meals"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-021",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      },
+      {
+        "id": "p3",
+        "text": "Atorvastatin 100 mg once daily is the standard starting dose for adults."
+      }
+    ],
+    "question": "What is the recommended dose of Atorvastatin and when is it taken?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Harbor savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "compounded monthly",
+            "value": "compounded monthly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-022",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      },
+      {
+        "id": "p3",
+        "text": "The Beacon savings account pays 4% interest, reviewed quarterly."
+      }
+    ],
+    "question": "What is the interest rate on the Beacon savings account?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Earth",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "in Earth days",
+            "value": "in Earth days"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-023",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      },
+      {
+        "id": "p3",
+        "text": "Venus takes 365 days around the Sun to complete one orbit."
+      }
+    ],
+    "question": "How long is the orbital period of Venus?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the upload endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after authentication",
+            "value": "after authentication"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 2,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-024",
+    "labels": {
+      "c1": {
+        "p1": "redundant",
+        "p3": "redundant"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      },
+      {
+        "id": "p3",
+        "text": "The billing endpoint allows 300 requests per minute, per API key."
+      }
+    ],
+    "question": "What is the rate limit for the billing endpoint?",
+    "scenario": "redundant"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Metformin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "twice daily",
+            "value": "twice daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-025",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      },
+      {
+        "id": "p3",
+        "text": "The dose of Metformin is 250 mg twice daily."
+      }
+    ],
+    "question": "What is the recommended dose of Metformin and when is it taken?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Aurora savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "paid annually",
+            "value": "paid annually"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-026",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      },
+      {
+        "id": "p3",
+        "text": "The interest rate on the Aurora savings account is 6%."
+      }
+    ],
+    "question": "What is the interest rate on the Aurora savings account?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Mercury",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per orbit",
+            "value": "per orbit"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-027",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      },
+      {
+        "id": "p3",
+        "text": "The orbital period of Mercury is 88 days."
+      }
+    ],
+    "question": "How long is the orbital period of Mercury?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the search endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "with burst allowance",
+            "value": "with burst allowance"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-028",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      },
+      {
+        "id": "p3",
+        "text": "The rate limit for the search endpoint is 100 requests per minute."
+      }
+    ],
+    "question": "What is the rate limit for the search endpoint?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Lisinopril",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after meals",
+            "value": "after meals"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-029",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      },
+      {
+        "id": "p3",
+        "text": "The dose of Atorvastatin is 250 mg once daily."
+      }
+    ],
+    "question": "What is the recommended dose of Atorvastatin and when is it taken?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Harbor savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "compounded monthly",
+            "value": "compounded monthly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-030",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      },
+      {
+        "id": "p3",
+        "text": "The interest rate on the Beacon savings account is 6%."
+      }
+    ],
+    "question": "What is the interest rate on the Beacon savings account?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Earth",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "in Earth days",
+            "value": "in Earth days"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-031",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      },
+      {
+        "id": "p3",
+        "text": "The orbital period of Venus is 88 days."
+      }
+    ],
+    "question": "How long is the orbital period of Venus?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1",
+        "p3"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the upload endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after authentication",
+            "value": "after authentication"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-032",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing",
+        "p3": "contradicting"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      },
+      {
+        "id": "p3",
+        "text": "The rate limit for the billing endpoint is 100 requests per minute."
+      }
+    ],
+    "question": "What is the rate limit for the billing endpoint?",
+    "scenario": "contradicting"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Metformin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "twice daily",
+            "value": "twice daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-033",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      },
+      {
+        "id": "p3",
+        "text": "Atorvastatin is taken once daily."
+      },
+      {
+        "id": "p4",
+        "text": "Metformin is usually taken with food and may cause mild nausea."
+      }
+    ],
+    "question": "What is the recommended dose of Metformin and when is it taken?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Aurora savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "paid annually",
+            "value": "paid annually"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-034",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      },
+      {
+        "id": "p3",
+        "text": "Interest on the Beacon savings account is reviewed quarterly."
+      },
+      {
+        "id": "p4",
+        "text": "The Aurora account includes free online banking and no monthly fee."
+      }
+    ],
+    "question": "What is the interest rate on the Aurora savings account?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Mercury",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per orbit",
+            "value": "per orbit"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-035",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      },
+      {
+        "id": "p3",
+        "text": "Venus completes one orbit around the Sun."
+      },
+      {
+        "id": "p4",
+        "text": "Mercury has two small moons and a thin atmosphere."
+      }
+    ],
+    "question": "How long is the orbital period of Mercury?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the search endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "with burst allowance",
+            "value": "with burst allowance"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-036",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      },
+      {
+        "id": "p3",
+        "text": "The billing endpoint allows requests per API key."
+      },
+      {
+        "id": "p4",
+        "text": "The search endpoint returns JSON and supports pagination."
+      }
+    ],
+    "question": "What is the rate limit for the search endpoint?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Lisinopril",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after meals",
+            "value": "after meals"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-037",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      },
+      {
+        "id": "p3",
+        "text": "Lisinopril is taken after meals."
+      },
+      {
+        "id": "p4",
+        "text": "Atorvastatin is usually taken with food and may cause mild nausea."
+      }
+    ],
+    "question": "What is the recommended dose of Atorvastatin and when is it taken?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Harbor savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "compounded monthly",
+            "value": "compounded monthly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-038",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      },
+      {
+        "id": "p3",
+        "text": "Interest on the Harbor savings account is compounded monthly."
+      },
+      {
+        "id": "p4",
+        "text": "The Beacon account includes free online banking and no monthly fee."
+      }
+    ],
+    "question": "What is the interest rate on the Beacon savings account?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Earth",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "in Earth days",
+            "value": "in Earth days"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-039",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      },
+      {
+        "id": "p3",
+        "text": "Earth completes one orbit in Earth days."
+      },
+      {
+        "id": "p4",
+        "text": "Venus has two small moons and a thin atmosphere."
+      }
+    ],
+    "question": "How long is the orbital period of Venus?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p1"
+      ],
+      "c2": [
+        "p3",
+        "p4"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the upload endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after authentication",
+            "value": "after authentication"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 0,
+        "supported": false
+      }
+    },
+    "id": "case-040",
+    "labels": {
+      "c1": {
+        "p1": "load_bearing"
+      },
+      "c2": {
+        "p3": "load_bearing",
+        "p4": "decorative"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      },
+      {
+        "id": "p3",
+        "text": "The upload endpoint allows requests after authentication."
+      },
+      {
+        "id": "p4",
+        "text": "The billing endpoint returns JSON and supports pagination."
+      }
+    ],
+    "question": "What is the rate limit for the billing endpoint?",
+    "scenario": "unsupported"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Metformin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "twice daily",
+            "value": "twice daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-041",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Metformin is 100 mg twice daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Atorvastatin is 200 mg once daily."
+      },
+      {
+        "id": "p3",
+        "text": "The recommended dose of Metformin is 100 mg."
+      },
+      {
+        "id": "p4",
+        "text": "Metformin is taken twice daily."
+      },
+      {
+        "id": "p5",
+        "text": "Atorvastatin is usually taken with food and may cause mild nausea."
+      }
+    ],
+    "question": "What is the recommended dose of Metformin and when is it taken?",
+    "scenario": "multi-hop"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Aurora savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "paid annually",
+            "value": "paid annually"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-042",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Aurora savings account is 4%, paid annually."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Beacon savings account is 5%, reviewed quarterly."
+      },
+      {
+        "id": "p3",
+        "text": "The annual interest rate on the Aurora savings account is 4%."
+      },
+      {
+        "id": "p4",
+        "text": "Interest on the Aurora savings account is paid annually."
+      },
+      {
+        "id": "p5",
+        "text": "The Beacon account includes free online banking and no monthly fee."
+      }
+    ],
+    "question": "What is the interest rate on the Aurora savings account?",
+    "scenario": "multi-hop"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Mercury",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per orbit",
+            "value": "per orbit"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-043",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Mercury is 365 days per orbit."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Venus is 687 days around the Sun."
+      },
+      {
+        "id": "p3",
+        "text": "The orbital period of Mercury is 365 days."
+      },
+      {
+        "id": "p4",
+        "text": "Mercury completes one orbit per orbit."
+      },
+      {
+        "id": "p5",
+        "text": "Venus has two small moons and a thin atmosphere."
+      }
+    ],
+    "question": "How long is the orbital period of Mercury?",
+    "scenario": "multi-hop"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the search endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "with burst allowance",
+            "value": "with burst allowance"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-044",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the search endpoint is 300 requests per minute, with burst allowance."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the billing endpoint is 60 requests per minute, per API key."
+      },
+      {
+        "id": "p3",
+        "text": "The rate limit for the search endpoint is 300 requests per minute."
+      },
+      {
+        "id": "p4",
+        "text": "The search endpoint allows requests with burst allowance."
+      },
+      {
+        "id": "p5",
+        "text": "The billing endpoint returns JSON and supports pagination."
+      }
+    ],
+    "question": "What is the rate limit for the search endpoint?",
+    "scenario": "multi-hop"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "dose of Atorvastatin",
+            "kind": "number",
+            "surface": "100 mg",
+            "value": "100"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "once daily",
+            "value": "once daily"
+          }
+        ],
+        "id": "c1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "facts": [
+          {
+            "key": "dose of Lisinopril",
+            "kind": "number",
+            "surface": "200 mg",
+            "value": "200"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after meals",
+            "value": "after meals"
+          }
+        ],
+        "id": "c2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-045",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The recommended dose of Atorvastatin is 100 mg once daily."
+      },
+      {
+        "id": "p2",
+        "text": "The recommended dose of Lisinopril is 200 mg after meals."
+      },
+      {
+        "id": "p3",
+        "text": "The recommended dose of Atorvastatin is 100 mg."
+      },
+      {
+        "id": "p4",
+        "text": "Atorvastatin is taken once daily."
+      },
+      {
+        "id": "p5",
+        "text": "Lisinopril is usually taken with food and may cause mild nausea."
+      }
+    ],
+    "question": "What is the recommended dose of Atorvastatin and when is it taken?",
+    "scenario": "multi-hop"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Beacon savings account",
+            "kind": "number",
+            "surface": "4 %",
+            "value": "4"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "reviewed quarterly",
+            "value": "reviewed quarterly"
+          }
+        ],
+        "id": "c1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "facts": [
+          {
+            "key": "interest rate on the Harbor savings account",
+            "kind": "number",
+            "surface": "5 %",
+            "value": "5"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "compounded monthly",
+            "value": "compounded monthly"
+          }
+        ],
+        "id": "c2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-046",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The annual interest rate on the Beacon savings account is 4%, reviewed quarterly."
+      },
+      {
+        "id": "p2",
+        "text": "The annual interest rate on the Harbor savings account is 5%, compounded monthly."
+      },
+      {
+        "id": "p3",
+        "text": "The annual interest rate on the Beacon savings account is 4%."
+      },
+      {
+        "id": "p4",
+        "text": "Interest on the Beacon savings account is reviewed quarterly."
+      },
+      {
+        "id": "p5",
+        "text": "The Harbor account includes free online banking and no monthly fee."
+      }
+    ],
+    "question": "What is the interest rate on the Beacon savings account?",
+    "scenario": "multi-hop"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "orbital period of Venus",
+            "kind": "number",
+            "surface": "365 days",
+            "value": "365"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "around the Sun",
+            "value": "around the Sun"
+          }
+        ],
+        "id": "c1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "facts": [
+          {
+            "key": "orbital period of Earth",
+            "kind": "number",
+            "surface": "687 days",
+            "value": "687"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "in Earth days",
+            "value": "in Earth days"
+          }
+        ],
+        "id": "c2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-047",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The orbital period of Venus is 365 days around the Sun."
+      },
+      {
+        "id": "p2",
+        "text": "The orbital period of Earth is 687 days in Earth days."
+      },
+      {
+        "id": "p3",
+        "text": "The orbital period of Venus is 365 days."
+      },
+      {
+        "id": "p4",
+        "text": "Venus completes one orbit around the Sun."
+      },
+      {
+        "id": "p5",
+        "text": "Earth has two small moons and a thin atmosphere."
+      }
+    ],
+    "question": "How long is the orbital period of Venus?",
+    "scenario": "multi-hop"
+  },
+  {
+    "citations": {
+      "c1": [
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "c2": [
+        "p2"
+      ]
+    },
+    "claims": [
+      {
+        "facts": [
+          {
+            "key": "rate limit for the billing endpoint",
+            "kind": "number",
+            "surface": "300 requests per minute",
+            "value": "300"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "per API key",
+            "value": "per API key"
+          }
+        ],
+        "id": "c1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "facts": [
+          {
+            "key": "rate limit for the upload endpoint",
+            "kind": "number",
+            "surface": "60 requests per minute",
+            "value": "60"
+          },
+          {
+            "key": "",
+            "kind": "term",
+            "surface": "after authentication",
+            "value": "after authentication"
+          }
+        ],
+        "id": "c2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      }
+    ],
+    "ground_truth": {
+      "c1": {
+        "collapse_depth": 1,
+        "minimal_size": 2,
+        "supported": true
+      },
+      "c2": {
+        "collapse_depth": 1,
+        "minimal_size": 1,
+        "supported": true
+      }
+    },
+    "id": "case-048",
+    "labels": {
+      "c1": {
+        "p3": "load_bearing",
+        "p4": "load_bearing",
+        "p5": "decorative"
+      },
+      "c2": {
+        "p2": "load_bearing"
+      }
+    },
+    "passages": [
+      {
+        "id": "p1",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute, per API key."
+      },
+      {
+        "id": "p2",
+        "text": "The rate limit for the upload endpoint is 60 requests per minute, after authentication."
+      },
+      {
+        "id": "p3",
+        "text": "The rate limit for the billing endpoint is 300 requests per minute."
+      },
+      {
+        "id": "p4",
+        "text": "The billing endpoint allows requests per API key."
+      },
+      {
+        "id": "p5",
+        "text": "The upload endpoint returns JSON and supports pagination."
+      }
+    ],
+    "question": "What is the rate limit for the billing endpoint?",
+    "scenario": "multi-hop"
+  }
+]
